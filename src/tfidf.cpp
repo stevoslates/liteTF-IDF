@@ -5,13 +5,6 @@
 #include "data.h"
 #include "utils.h"
 
-/*
-TO DO: improve speed of calculating vectors (parrelise?)
-TO DO: improve the header files for this
-TO DO:: can improve - if we know the places that the queryVec is non_zero we only need to check those indicies (helps with sparsity)
-TO DO: slight different version of TF-IDF (like one thats better)
-*/
-
 std::vector<std::string> getOrderedQueryTokens(const std::vector<std::string>& q_tokens) {
     std::unordered_set<std::string> seen;
     std::vector<std::string> ordered;
