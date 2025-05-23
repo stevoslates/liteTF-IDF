@@ -1,0 +1,2 @@
+The quick brown fox jumps over the lazy dog.
+This line is here to test the TF-IDF calculation.

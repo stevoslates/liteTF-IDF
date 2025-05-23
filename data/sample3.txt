@@ -1,0 +1,2 @@
+Another line is added to test how TF-IDF responds to repeated terms.
+This document includes the word line again, just like the others.

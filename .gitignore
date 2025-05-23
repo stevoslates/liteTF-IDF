@@ -1,0 +1,6 @@
+main
+*.o
+*.DS_Store
+.vscode/
+testdata/
+wikipedia_articles/
