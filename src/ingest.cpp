@@ -7,11 +7,6 @@
 #include "utils.h"
 #include "data.h"
 
-//TO DO TO MAKE IT REALLY QUICK, read in the file as bytestream
-//TO DO: Fix return value of Read file
-//TO DO: how do i make the strucutres accessible everywehre? put them in the headers??
-//IMPROVEMENT: read all files at once?
-
 std::unordered_map<int, std::string> docIdToFileName;
 std::unordered_map<int, std::unordered_map<std::string, int>> wordFreqPerDoc;
 std::unordered_map<std::string, int> docFreq;
@@ -47,7 +42,6 @@ int readFile(int docID, const std::string& filename) {
     return 0;
 }
 
-//TO DO: make this alot quicker
 std::vector<std::string> tokenize(const std::string& curline) {
     std::vector<std::string> tokens;
     std::string word;
